@@ -9,7 +9,7 @@
 * start mongodb
 * use the following commands in command line
 ```
-git clone https://github.com/argivator/majhen_API
+git clone https://github.com/lbracun/majhen_API
 npm install
 npm start
 ```
