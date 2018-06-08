@@ -10,10 +10,11 @@
 * use the following commands in command line
 ```
 git clone https://github.com/lbracun/majhen_API
+cd majhen_API
 npm install
 npm start
 ```
-* app is now running on `https://localhost:3000`
+* app is now running on `http://localhost:3000`
 
 ## API routes
 * `[GET] /products` returns all products from db
