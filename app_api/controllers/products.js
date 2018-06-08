@@ -14,7 +14,7 @@ module.exports.getProducts = function(req, res) {
             _id: 0,
             name: 1,
             price: 1,
-            avalible: 1,
+            available: 1,
             dateCreated: 1
         })
         .exec(function(err, results) {
@@ -31,7 +31,7 @@ module.exports.postProduct = function(req, res) {
         .create({
             name: req.body.name,
             price: req.body.price,
-            avalible: req.body.avalible,
+            available: req.body.available,
             dateCreated: new Date().toString()
         }, function (err, product) {
             if (err)
@@ -49,7 +49,7 @@ module.exports.getProduct = function(req, res) {
             _id: 0,
             name: 1,
             price: 1,
-            avalible: 1,
+            available: 1,
             dateCreated: 1
         })
         .exec(function(err, product) {
@@ -97,8 +97,8 @@ module.exports.updateProduct = function(req, res) {
                         product.name = req.body.name;
                     if (req.body.price)
                         product.price = req.body.price;
-                    if (req.body.avalible)
-                        product.avalible = req.body.avalible;
+                    if (req.body.available)
+                        product.available = req.body.available;
                     product.save(
                         function(err, product) {
                             if (err)

@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var productsSchema = new mongoose.Schema({
     name: {type: String},
     price: {type: Number},
-    avalible: {type: Boolean},
+    available: {type: Boolean},
     dateCreated: {type: String}
 });
 
