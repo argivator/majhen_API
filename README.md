@@ -10,6 +10,7 @@
 * use the following commands in command line
 ```
 git clone https://github.com/lbracun/majhen_API
+cd majhen_API
 npm install
 npm start
 ```
