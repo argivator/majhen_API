@@ -25,7 +25,7 @@ Example POST:
 {
 name: "Computer 1",
 price: 1500,
-avalible: true
+available: true
 }
 ```
 * `[GET] /product/:id` returns product with specific id
@@ -38,6 +38,6 @@ Example PUT:
 id: 5b1a7ed83f244d27f466e275,
 name: "Computer 2",
 price: 2000,
-avalible: false
+available: false
 }
 ```
