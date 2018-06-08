@@ -32,6 +32,7 @@ module.exports.postProduct = function(req, res) {
         !req.body.price ||
         !req.body.available) {
             returnJSON(res, 400, {'message': 'Name, price and available are required fields!'})
+            return;
         }
     Product
         .create({
