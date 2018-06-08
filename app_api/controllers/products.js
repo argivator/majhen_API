@@ -80,6 +80,10 @@ module.exports.deleteProduct = function(req, res) {
 
 // [PUT] /product
 module.exports.updateProduct = function(req, res) {
+    if (!req.body.id) {
+        returnJSON(res, 400, {'message': 'Id is required field.'})
+        return;
+    }
     Product
         .findById(req.body.id)
         .exec(
