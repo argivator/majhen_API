@@ -14,7 +14,7 @@ cd majhen_API
 npm install
 npm start
 ```
-* app is now running on `https://localhost:3000`
+* app is now running on `http://localhost:3000`
 
 ## API routes
 * `[GET] /products` returns all products from db
