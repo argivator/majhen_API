@@ -1,13 +1,15 @@
 # majhen_API
 
 ## Requirements
+* git
 * node.js (npm)
 * mongodb
 
 ## Instructions
 * start mongodb
-* use the following commands
+* use the following commands in command line
 ```
+git clone https://github.com/argivator/majhen_API
 npm install
 npm start
 ```
